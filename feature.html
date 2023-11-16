@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Patient page
+</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src="https://kit.fontawesome.com/7c3a0e8463.js" crossorigin="anonymous"></script>
+
+	<style>
+		.progress-container {
+            width: 100px;
+            height: 100px;
+            position:relative;
+            padding-left:40%;
+        }
+        .progress-bar {
+            width: 90%;
+            height: 50px;
+            padding-left:40%;
+            background: conic-gradient(
+                #ccc 0% 50%,
+                #0073e6 50% 50%
+            );
+            border-radius: 100px 100px 0 0;
+        }
+        .progress-label {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            padding-left:75%;
+            transform: translateX(-50%);
+            font-size: 20px;
+        }
+	</style>
+<style>
+    .arrow {
+      border: solid #012E57;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 3px;
+    }
+    .left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+    .nav
+    {
+        height:60px;
+        border-bottom-style: solid;
+        border-color: #7D7D7D ;
+    }
+    .personalDetails
+    {
+        color:#012E57;
+    }
+    .goal
+    {
+        background-color:#002647;
+        color:#FFFFFF;
+        height:200px;
+        text-align:center;
+        border: 2px solid;
+          border-radius: 8px;
+          padding: 5px;
+    }
+    .medDetails
+    {
+        color:#012E57;
+        height:250px;
+        border-bottom-style: solid;
+        border-color: #7D7D7D ;
+    }
+    .format {
+                margin-left:200px;
+                
+            }
+
+</style>
+
+</head>
+<body>
+<nav>
+    <p style="height:20px;background-color:#002647; "> </p>
+    <h1 style="color:#012E57" class="nav"><i class="arrow left"></i>View Updated Patient</h1>
+    <p></p>
+</nav>
+<div class="personalDetails">
+    <h3>S.Meena,F/23<span class="format"><i style='font-size:24px' class='fas'  >&#xf406;</i></span></h3>
+    <p>Patient ID: 87 20200727153457</p>
+</div>
+<div class="goal" >
+	<p><b>Goal reached</b></p>
+	<div class="progress-container">
+		<div class="progress-bar" id="progress-bar"></div>
+		<div class="progress-label" id="progress-label">0%</div>
+	</div>
+
+	<script>
+		// JavaScript to update the progress bar and label based on the percentage
+        function updateProgress(percentage) {
+            const progressBar = document.getElementById("progress-bar");
+            const progressLabel = document.getElementById("progress-label");
+
+            // Update the progress bar
+            progressBar.style.background = `conic-gradient(#ccc 0% ${100 - percentage}%, #FCB000 ${100 - percentage}% 100%)`;
+
+            // Update the progress label
+            progressLabel.textContent = `${percentage}%`;
+        }
+
+        // Example usage: Call updateProgress with the desired percentage (0-100)
+        updateProgress(90); // Update with a 75% progress
+	</script>
+
+</div>
+<div class="medDetails">
+    <p>Phone no:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<span class="format"><i class="fa-solid fa-phone"></i> 8022334455</span></p>
+
+    <p>Mail ID &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<span class="format"><i class="fa-sharp fa-regular fa-envelope"></i></span>meenarabinsachin2@gmail.com</p>
+
+    <p>Affected side &nbsp &nbsp &nbsp &nbsp<span class="format"><i class="fa-sharp fa-solid fa-person"></i></span>Billateral</p>
+
+    <p>Condition &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<span class="format"><i class="fa-solid fa-bone"></i></span>Ortho</p>
+
+    <p>Speciality  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span class="format"><i class="fa-solid fa-briefcase-medical"></i></span></i>Osteoarthritis</p>
+</div>
+
+<div>
+    <p><i class="fa-solid fa-notes-medical"></i>Medical history <span class="format">Hypertension, DM, Hypothyrodism</span></p>
+
+</div>
+
+
+</body>
+</html>
+
