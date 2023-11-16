@@ -1,0 +1,558 @@
+localhost:8282/api/health-claims/IDN/en_GB/fnol-eligibility
+
+transactionHashMap	HashMap<K,V>  (id=164)	
+
+
+actionHashMap	HashMap<K,V>  (id=521)	
+	[0]	HashMap$Node<K,V>  (id=652)	
+		key	"RcmdRatingMethod" (id=668)	
+		value	null	
+	[1]	HashMap$Node<K,V>  (id=653)	
+		key	"RcmdRatingPoints" (id=670)	
+		value	null	
+	[2]	HashMap$Node<K,V>  (id=654)	
+		key	"RecommendationCategory" (id=672)	
+		value	"MESSAGE" (id=598)	
+	[3]	HashMap$Node<K,V>  (id=655)	
+		key	"DecisionType" (id=674)	
+		value	null	
+	[4]	HashMap$Node<K,V>  (id=656)	
+		key	"Decision" (id=676)	
+		value	"INELIGIBLE" (id=597)	
+	[5]	HashMap$Node<K,V>  (id=657)	
+		key	"Weight" (id=678)	
+		value	null	
+	[6]	HashMap$Node<K,V>  (id=658)	
+		key	"Recommendation" (id=680)	
+		value	"Event Date before policy effective date" (id=599)	
+	[7]	HashMap$Node<K,V>  (id=659)	
+		key	"condition1" (id=682)	
+		value	"FALSE" (id=602)	
+	[8]	HashMap$Node<K,V>  (id=660)	
+		key	"condition2" (id=684)	
+		value	null	
+	[9]	HashMap$Node<K,V>  (id=661)	
+		key	"DecisionValue" (id=687)	
+		value	null	
+	[10]	HashMap$Node<K,V>  (id=662)	
+		key	"RcmdRequirement" (id=689)	
+		value	null	
+	[11]	HashMap$Node<K,V>  (id=663)	
+		key	"RcmdClause" (id=691)	
+		value	null	
+	[12]	HashMap$Node<K,V>  (id=664)	
+		key	"$ruleMessage" (id=693)	
+		value	"Ineligible" (id=594)	
+
+
+
+ruleActionDO	RuleActionDO  (id=566)	
+	action	"ReasonCode" (id=575)	
+	actionForCd	null	
+	actionIoType	"IO" (id=576)	
+	actionOrder	Integer  (id=577)	
+	actionType	"adj_rule" (id=579)	
+	applicableComponentCd	null	
+	applicableCountryCd	null	
+	baseCompanyCd	"MMS" (id=580)	
+	businessKey	null	
+	checkersDecision	null	
+	checkersDicisionDt	null	
+	checkersRemarks	null	
+	createdDt	Timestamp  (id=581)	
+	createdUser	"Smita" (id=582)	
+	exceptionDOList	null	
+	guid	"116fcf9d-30d5-4565-a45e-0c4f21c1ff94" (id=587)	
+	id	Long  (id=588)	
+	metaData	null	
+	parentObject	null	
+	shareByRegionalOfc	null	
+	stageCd	null	
+	statusCd	null	
+	updatedDt	Timestamp  (id=591)	
+	updatedUser	"Smita" (id=592)	
+	versionId	null	
+	versionNum	null	
+	workflowStatusCd	null	
+
+
+ruleDataDO	RuleDataDO  (id=523)	
+	action1	"Ineligible" (id=594)	
+	action10	null	
+	action11	null	
+	action12	"R04" (id=595)	
+	action13	"NON_STP" (id=596)	
+	action2	null	
+	action3	"INELIGIBLE" (id=597)	
+	action4	null	
+	action5	null	
+	action6	"MESSAGE" (id=598)	
+	action7	"Event Date before policy effective date" (id=599)	
+	action8	null	
+	action9	null	
+	applicableComponentCd	null	
+	applicableCountryCd	null	
+	baseCompanyCd	"CM0002020" (id=601)	
+	businessKey	null	
+	checkersDecision	null	
+	checkersDicisionDt	null	
+	checkersRemarks	null	
+	condition1	"FALSE" (id=602)	
+	condition10	null	
+	condition11	null	
+	condition12	null	
+	condition13	null	
+	condition2	null	
+	condition3	null	
+	condition4	null	
+	condition5	null	
+	condition6	null	
+	condition7	null	
+	condition8	null	
+	condition9	null	
+	createdDt	Timestamp  (id=604)	
+	createdUser	"indonesia@mlmms.com" (id=605)	
+	exceptionDOList	null	
+	expressionUiAction	null	
+	guid	"661ab5d0-2709-4874-9390-1daa60eb701b" (id=607)	
+	id	Long  (id=608)	
+	multilingualRuleMessages	PersistentBag  (id=609)	
+	parentObject	null	
+	shareByRegionalOfc	null	
+	sortOrder	null	
+	stageCd	null	
+	status	"ACTIVE" (id=610)	
+	statusCd	null	
+	updatedDt	Timestamp  (id=611)	
+	updatedUser	"indonesia@mlmms.com" (id=612)	
+	versionId	null	
+	versionNum	null	
+	workflowStatusCd	null	
+
+
+serviceDO	ServiceDO  (id=182)	
+	baseCompanyCd	null	
+	callingService	"HEALTHCLAIM" (id=614)	
+	createdDt	null	
+	createdUser	null	
+	guid	null	
+	id	null	
+	listOfRules	ArrayList<E>  (id=615)	
+	localeLanguage	"EN" (id=643)	
+	parentObject	null	
+	populateUserVocabularyFl	Boolean  (id=644)	
+	rollupRequired	Boolean  (id=436)	
+	service	"HEALTH_CLAIM_FNOL" (id=645)	
+	serviceDt	Date  (id=646)	
+	serviceTaskList	ArrayList<E>  (id=647)	
+	serviceType	"FNOL_ELIGIBILITY" (id=648)	
+	shareByRegionalOfc	null	
+	updatedDt	null	
+	updatedUser	null	
+	versionId	null	
+	versionNum	null	
+	workflowStatusCd	null	
+
+
+
+outputMap	HashMap<K,V>  (id=524)	
+	[0]	HashMap$Node<K,V>  (id=564)	
+		key	"RcmdRatingMethod" (id=668)	
+		value	null	
+	[1]	HashMap$Node<K,V>  (id=568)	
+		key	"RcmdRatingPoints" (id=670)	
+		value	null	
+	[2]	HashMap$Node<K,V>  (id=538)	
+		key	"DecisionValue" (id=687)	
+		value	null	
+	[3]	HashMap$Node<K,V>  (id=553)	
+		key	"RcmdRequirement" (id=689)	
+		value	null	
+	[4]	HashMap$Node<K,V>  (id=550)	
+		key	"RcmdClause" (id=691)	
+		value	null	
+	[5]	HashMap$Node<K,V>  (id=529)	
+		key	"$ruleMessage" (id=693)	
+		value	"Ineligible" (id=594)	
+	[6]	HashMap$Node<K,V>  (id=544)	
+		key	"RecommendationCategory" (id=672)	
+		value	"MESSAGE" (id=598)	
+	[7]	HashMap$Node<K,V>  (id=532)	
+		key	"DecisionType" (id=674)	
+		value	null	
+	[8]	HashMap$Node<K,V>  (id=535)	
+		key	"Decision" (id=676)	
+		value	"INELIGIBLE" (id=597)	
+	[9]	HashMap$Node<K,V>  (id=541)	
+		key	"Weight" (id=678)	
+		value	null	
+	[10]	HashMap$Node<K,V>  (id=547)	
+		key	"Recommendation" (id=680)	
+		value	"Event Date before policy effective date" (id=599)
+
+
+output map
+{RcmdRatingMethod=null, RcmdRatingPoints=null, DecisionValue=null,
+ RcmdRequirement=null, RcmdClause=null, $ruleMessage=Ineligible, RecommendationCategory=MESSAGE, ReasonCode=R04, DecisionType=null, Decision=INELIGIBLE, Weight=null, 
+Recommendation=Event Date before policy effective date}	
+
+	
+outputMap	HashMap<K,V>  (id=1022)	
+	[0]	HashMap$Node<K,V>  (id=1058)	
+		key	"RcmdRatingMethod" (id=1100)	
+		value	null	
+	[1]	HashMap$Node<K,V>  (id=1061)	
+		key	"RcmdRatingPoints" (id=1102)	
+		value	null	
+	[2]	HashMap$Node<K,V>  (id=1037)	
+		key	"DecisionValue" (id=1105)	
+		value	null	
+	[3]	HashMap$Node<K,V>  (id=1055)	
+		key	"RcmdRequirement" (id=1107)	
+		value	null	
+	[4]	HashMap$Node<K,V>  (id=1051)	
+		key	"RcmdClause" (id=1109)	
+		value	null	
+	[5]	HashMap$Node<K,V>  (id=1027)	
+		key	"$ruleMessage" (id=1111)	
+		value	"ELIGIBLE" (id=1112)	
+	[6]	HashMap$Node<K,V>  (id=1044)	
+		key	"RecommendationCategory" (id=1114)	
+		value	"MESSAGE" (id=1115)	
+	[7]	HashMap$Node<K,V>  (id=1065)	
+		key	"ReasonCode" (id=1117)	
+		value	"R02" (id=1118)	
+	[8]	HashMap$Node<K,V>  (id=1031)	
+		key	"DecisionType" (id=1120)	
+		value	null	
+	[9]	HashMap$Node<K,V>  (id=1034)	
+		key	"Decision" (id=1122)	
+		value	"ELIGIBLE" (id=1123)	
+	[10]	HashMap$Node<K,V>  (id=1040)	
+		key	"Weight" (id=1125)	
+		value	null	
+	[11]	HashMap$Node<K,V>  (id=1047)	
+		key	"Recommendation" (id=1127)	
+		value	"Policy is in-force" (id=1128)	
+
+evaluateCondition()
+
+
+getCondition() returned	"PREMIUMPAYING,PREMIUMWAIVER,FULLYPAID,EXTENDEDTERMINS.,REDUCEDPAID-UP,CONVERTED,REGISTERDEATH,TPDCLAIM" (id=193)	
+this	RuleEngine  (id=158)	
+transactionHashMap	HashMap<K,V>  (id=160)	
+conditionHashMap	HashMap<K,V>  (id=166)	
+
+
+ruleConditionDO	RuleConditionDO  (id=167)	
+	applicableComponentCd	null	
+	applicableCountryCd	null	
+	baseCompanyCd	"CM0002020" (id=209)	
+	businessKey	null	
+	checkersDecision	null	
+	checkersDicisionDt	null	
+	checkersRemarks	null	
+	condition	"CoverageStatusCdPolicyCoverage" (id=183)	
+	conditionOrder	Integer  (id=191)	
+	conditionType	"data_variable_in" (id=211)	
+	createdDt	Timestamp  (id=212)	
+	createdUser	"indonesia@mlmms.com" (id=215)	
+	exceptionDOList	null	
+	expressionUiCondition	null	
+	guid	"901867d6-cbd0-4655-9ef7-ed658629a36e" (id=216)	
+	id	Long  (id=218)	
+	parentObject	null	
+	shareByRegionalOfc	null	
+	stageCd	null	
+	statusCd	null	
+	updatedDt	Timestamp  (id=221)	
+	updatedUser	"indonesia@mlmms.com" (id=223)	
+	versionId	null	
+	versionNum	null	
+	workflowStatusCd	null	
+
+
+ruleDataDO	RuleDataDO  (id=172)	
+	action1	"ELIGIBLE" (id=225)	
+	action10	null	
+	action11	null	
+	action12	"J203" (id=226)	
+	action13	"STP" (id=227)	
+	action2	null	
+	action3	"ELIGIBLE" (id=228)	
+	action4	null	
+	action5	null	
+	action6	"MESSAGE" (id=230)	
+	action7	"Coverage is active" (id=232)	
+	action8	null	
+	action9	null	
+	applicableComponentCd	null	
+	applicableCountryCd	null	
+	baseCompanyCd	"CM0002020" (id=234)	
+	businessKey	null	
+	checkersDecision	null	
+	checkersDicisionDt	null	
+	checkersRemarks	null	
+	condition1	"PREMIUMPAYING,PREMIUMWAIVER,FULLYPAID,EXTENDEDTERMINS.,REDUCEDPAID-UP,CONVERTED,REGISTERDEATH,TPDCLAIM" (id=193)	
+	condition10	null	
+	condition11	null	
+	condition12	null	
+	condition13	null	
+	condition2	null	
+	condition3	null	
+	condition4	null	
+	condition5	null	
+	condition6	null	
+	condition7	null	
+	condition8	null	
+	condition9	null	
+	createdDt	Timestamp  (id=236)	
+	createdUser	"indonesia@mlmms.com" (id=237)	
+	exceptionDOList	null	
+	expressionUiAction	null	
+	guid	"e13a83e8-b8f6-4ae5-a446-61c2de68dad5" (id=239)	
+	id	Long  (id=240)	
+	multilingualRuleMessages	PersistentBag  (id=241)	
+	parentObject	null	
+	shareByRegionalOfc	null	
+	sortOrder	null	
+	stageCd	null	
+	status	"ACTIVE" (id=248)	
+	statusCd	null	
+	updatedDt	Timestamp  (id=250)	
+	updatedUser	"indonesia@mlmms.com" (id=251)	
+	versionId	null	
+	versionNum	null	
+	workflowStatusCd	null	
+outputMap	HashMap<K,V>  (id=174)	
+condMatchAlgo	null	
+transactionDataOfRules	HashMap<K,V>  (id=175)	
+returnObject	null	
+
+
+
+lhs	"PREMIUMPAYING" (id=185)	
+rhs	"PREMIUMPAYING,PREMIUMWAIVER,FULLYPAID,EXTENDEDTERMINS.,REDUCEDPAID-UP,CONVERTED,REGISTERDEATH,TPDCLAIM" (id=193)	
+
+
+lhs	PREMIUMPAYING
+rhs	PREMIUMPAYING,PREMIUMWAIVER,FULLYPAID,EXTENDEDTERMINS.,REDUCEDPAID-UP,CONVERTED,REGISTERDEATH,TPDCLAIM
+
+
+
+conditionKey = ruleConditionDO.getCondition();
+Object conditionResult = evaluateCondition(transactionHashMap, conditionHashMap,ruleConditionDO, ruleDataDO, outputMap, ruleDO.getCondMatchAlgo(), transactionDataOfRules);
+
+
+
+ %%%%%%%%%%%%%%%%%%% Execute Entity Started %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[07-11-2023 13:55:19.889+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Object Traversing for Service [HEALTH_CLAIM_FNOL] , Service Type [FNOL_ELIGIBILITY] , Cycle [MAIN] , Object Name [HealthClaimPolicyCoverageDO] 
+[07-11-2023 13:55:19.891+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^Rule Execution Started for Rule : [CoverageStatusCheckatFNOL] ^^^^^^^^
+[07-11-2023 13:55:19.892+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^Rule Execution Started for Rule : [CoverageStatusCheckatFNOL] ^^^^^^^^
+[07-11-2023 13:55:33.321+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] start evaluating conditions for : CoverageStatusCheckatFNOL
+[07-11-2023 13:55:33.334+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Calculated Value for Vocab = [CoverageStatusCdPolicyCoverage] is = [PREMIUMPAYING]
+[07-11-2023 13:55:40.288+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] start evaluating actions for : CoverageStatusCheckatFNOL
+[07-11-2023 13:55:40.289+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [$ruleMessage] value computed is : [ELIGIBLE]
+[07-11-2023 13:55:40.289+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [DecisionType] value computed is : [null]
+[07-11-2023 13:55:40.289+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Decision] value computed is : [ELIGIBLE]
+[07-11-2023 13:55:40.289+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [DecisionValue] value computed is : [null]
+[07-11-2023 13:55:40.289+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Weight] value computed is : [null]
+[07-11-2023 13:55:40.289+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RecommendationCategory] value computed is : [MESSAGE]
+[07-11-2023 13:55:40.289+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Recommendation] value computed is : [Coverage is active]
+[07-11-2023 13:55:40.290+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdClause] value computed is : [null]
+[07-11-2023 13:55:40.290+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRequirement] value computed is : [null]
+[07-11-2023 13:55:40.290+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRatingMethod] value computed is : [null]
+[07-11-2023 13:55:40.290+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRatingPoints] value computed is : [null]
+[07-11-2023 13:55:40.290+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [ReasonCode] value computed is : [J203]
+[07-11-2023 13:55:40.290+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [WorkflowDecision] value computed is : [STP]
+[07-11-2023 13:55:40.290+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] 
+^^^^^^^^^^^^^^^^^^^^^^^^ Rule Execution Ended ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+ %%%%%%%%%%%%%%%% Execute Entity Started %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[07-11-2023 13:55:40.358+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Object Traversing for Service [HEALTH_CLAIM_FNOL] , Service Type [FNOL_ELIGIBILITY] , Cycle [MAIN] , Object Name [HealthClaimPolicyCoverageDO] 
+[07-11-2023 13:55:40.358+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Execute Entity Ended %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[07-11-2023 13:55:40.359+0700] [pool-3-thread-1]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Execute Entity Ended %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[07-11-2023 13:55:40.359+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^Rule Execution Started for Rule : [PolicyStatusCheckFNOL] ^^^^^^^^
+[07-11-2023 13:55:40.359+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^Rule Execution Started for Rule : [PolicyStatusCheckFNOL] ^^^^^^^^
+[07-11-2023 13:55:48.068+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] start evaluating conditions for : PolicyStatusCheckFNOL
+[07-11-2023 13:55:48.069+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Calculated Value for Vocab = [PolicyStatusAtEventCd] is = [PREMIUMPAYING]
+[07-11-2023 13:55:58.148+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] start evaluating actions for : PolicyStatusCheckFNOL
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [$ruleMessage] value computed is : [ELIGIBLE]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [DecisionType] value computed is : [null]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Decision] value computed is : [ELIGIBLE]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [DecisionValue] value computed is : [null]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Weight] value computed is : [null]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RecommendationCategory] value computed is : [MESSAGE]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Recommendation] value computed is : [Policy is in-force]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdClause] value computed is : [null]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRequirement] value computed is : [null]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRatingMethod] value computed is : [null]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRatingPoints] value computed is : [null]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [ReasonCode] value computed is : [R02]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [WorkflowDecision] value computed is : [STP]
+[07-11-2023 13:55:58.149+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Rule Execution Ended ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Rule Execution Ended ^^^^^^^^^^^^^^^^^^^^^
+[07-11-2023 13:57:18.015+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Rule [EventbeforePolicyEffectiveDateCheckFNOL] Execution End Time [79813]
+[07-11-2023 13:57:18.082+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^Rule Execution Started for Rule : [ProductValidityCheckRule] ^^^^^^^^
+[07-11-2023 13:57:18.082+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^Rule Execution Started for Rule : [ProductValidityCheckRule] ^^^^^^^^
+[07-11-2023 13:57:21.323+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] start evaluating conditions for : ProductValidityCheckRule
+[07-11-2023 13:57:21.323+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Calculated Value for Vocab = [RegulatorProductCd] is = [MHB12]
+[07-11-2023 13:57:21.323+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Calculated Value for Vocab = [RegulatorProductVersion] is = [01]
+[07-11-2023 13:57:26.807+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] start evaluating actions for : ProductValidityCheckRule
+[07-11-2023 13:57:26.807+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [$ruleMessage] value computed is : [ELIGIBLE]
+[07-11-2023 13:57:26.807+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [DecisionType] value computed is : [null]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Decision] value computed is : [ELIGIBLE]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [DecisionValue] value computed is : [null]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Weight] value computed is : [null]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RecommendationCategory] value computed is : [MESSAGE]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [Recommendation] value computed is : [Plan code is supported]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdClause] value computed is : [null]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRequirement] value computed is : [null]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRatingMethod] value computed is : [null]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [RcmdRatingPoints] value computed is : [null]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [ReasonCode] value computed is : [J201]
+[07-11-2023 13:57:26.808+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] Action Performed for Vocabulary : [WorkflowDecision] value computed is : [STP]
+[07-11-2023 13:57:26.809+0700] [pool-3-thread-1]
+				[manulife-interfaces,3a632651bdcf0c2c,0c36ff9b99aa8aaf]
+				[c.m.i.r.RuleEngine] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Rule Execution Ended ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+cicd
+log frame work which ms use
+new redic
+spring cloud sluth
+jar /war
+
+java.c
+.m2
+
+pipeline
+
+if rule dosent work claim or manulife srvice
